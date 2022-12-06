@@ -1,7 +1,6 @@
 import "./App.css";
 import "./reset.css";
 
-
 import { useState } from "react";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
@@ -13,6 +12,7 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { Routes } from "react-router-dom";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
       <Modal isOpen={isOpen} style={customStyles} closeTimeoutMS={500}>
         <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -40,7 +40,8 @@ function App() {
       <Education />
       <Projects />
       <Contact />
-    </div>
+      <Routes />
+    </>
   );
 }
 
