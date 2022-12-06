@@ -12,7 +12,7 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import { Routes } from "react-router-dom";
+import RoutesMain from "./routes";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,11 +36,7 @@ function App() {
         <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
       </Modal>
       <Home />
-      <About />
-      <Education />
-      <Projects />
-      <Contact />
-      <Routes />
+      <RoutesMain />
     </>
   );
 }
