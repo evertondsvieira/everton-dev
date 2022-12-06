@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Education from "../pages/Education";
@@ -13,6 +13,7 @@ const RoutesMain = () => {
       <Route path="/education" element={<Education />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<Navigate replace to="/" />} />
     </Routes>
   );
 };
