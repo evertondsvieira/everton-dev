@@ -1,10 +1,21 @@
+import Typewriter from "typewriter-effect";
+
 const Home = () => {
+  return (
+    <div className="text-center pt-16 text-slate-100">
+      <p>Hi, welcome to my page</p>
+      <div className="flex items-center justify-center gap-1">
+        <p>I am a</p>
+        <Typewriter
+          options={{
+            strings: ["Front-end Developer", "Back-end Developer", "Full-stack Developer"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </div>
+    </div>
+  );
+};
 
-    return(
-        <div>
-            <h1 className="text-center text-2xl font-extrabold uppercase text-slate-100">Home</h1>
-        </div>
-    )
-}
-
-export default Home
+export default Home;
