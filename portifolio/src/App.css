@@ -1,0 +1,12 @@
+.centralize{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centralize-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
