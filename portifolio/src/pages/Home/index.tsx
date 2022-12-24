@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
-    <div className="text-center pt-16 text-slate-100">
+    <div id="/" className="text-center pt-16 text-slate-100 max-w-[1200px]">
       <p>Hi, welcome to my page</p>
       <div className="flex items-center justify-center gap-1">
         <p>I am a</p>
