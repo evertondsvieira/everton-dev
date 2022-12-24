@@ -12,7 +12,6 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import RoutesMain from "./routes";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,12 +30,18 @@ function App() {
 
   return (
     <>
-      <Header isOpen={isOpen} setIsOpen={setIsOpen} />
-      <Modal isOpen={isOpen} style={customStyles} closeTimeoutMS={500}>
-        <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
-      </Modal>
-      <Home />
-      <RoutesMain />
+      <div className="centralize-header">
+        <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      </div>
+      <div className="centralize">
+        <Modal isOpen={isOpen} style={customStyles} closeTimeoutMS={500}>
+          <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
+        </Modal>
+        <Home />
+        <About />
+        <Education />
+        <Projects />
+      </div>
     </>
   );
 }
