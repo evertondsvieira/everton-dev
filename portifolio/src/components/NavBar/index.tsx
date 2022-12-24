@@ -3,10 +3,9 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillHome } from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
-import { IoChatbubblesSharp } from "react-icons/io5";
 import { MdWork } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 import { IOpenMenu } from "../Header";
 
 
@@ -16,25 +15,21 @@ const NavBar = ({setIsOpen}:IOpenMenu) => {
             <div className="flex-col space-y-6">
                 <div className="w-70 h-full text-slate-100 absolute cursor-pointer top-2.5 right-1.5" onClick={() => setIsOpen(false)}><AiOutlineClose size={25}/></div>
                 <ul className="w-54 flex gap-12 flex-col text-slate-100 ">
-                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer" onClick={() => setIsOpen(false)}>
+                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <AiFillHome />
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Home</Link></li>
                     </div>
-                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer" onClick={() => setIsOpen(false)}>
+                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <BsPersonFill />
-                        <li><Link to="about">About</Link></li>
+                        <li><Link to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>About</Link></li>
                     </div>
-                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer" onClick={() => setIsOpen(false)}>
+                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <FaGraduationCap />
-                        <li><Link to="education">Education</Link></li>
+                        <li><Link to="education" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Education</Link></li>
                     </div>
-                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer" onClick={() => setIsOpen(false)}>
+                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <MdWork />
-                        <li><Link to="projects">Portfolio</Link></li>
-                    </div>
-                    <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer" onClick={() => setIsOpen(false)}>
-                        <IoChatbubblesSharp />
-                        <li><Link to="contact">Contact</Link></li>
+                        <li><Link to="projects" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
                     </div>
                     <li className="flex justify-center space-x-12 cursor-pointer">
                         <a href="https://github.com/evertondsvieira" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineGithub size={25}/></a>
