@@ -6,27 +6,27 @@ const Projects = () => {
             <div className="flex items-center justify-center flex-row flex-wrap gap-3 max-w-[1200px] mb-8">
                 <div>
                     <p>Comix Shop</p>
-                    <img src="/comixshop.png" alt="" />
+                    <a href="https://evertondsvieira.github.io/Comix-Shop/" target="blank"><img src="/comixshop.png" alt="" /></a>
                 </div>
                 <div>
                     <p>Nu Kenzie</p>
-                    <img src="/nukenzie.png" alt="" />
+                    <a href="https://react-entrega-s1-nu-kenzie-evertondsvieira.vercel.app/" target="blank"><img src="/nukenzie.png" alt="" /></a>
                 </div>
                 <div>
                     <p>Kenzie Burger</p>
-                    <img src="/kenzieburger.png" alt="" />
+                    <a href="https://react-entrega-s1-hamburgueria-da-kenzie-evertondsvieira.vercel.app/" target="blank"><img src="/kenzieburger.png" alt="" /></a>
                 </div>
                 <div>
                     <p>Kenzie Hub</p>
-                    <img src="/kenziehub.png" alt="" />
+                    <a href="https://kenzie-hub-eight-gamma.vercel.app/" target="blank"><img src="/kenziehub.png" alt="" /></a>
                 </div>
                 <div>
                     <p>The Cost</p>
-                    <img src="/thecost.png" alt="" />
+                    <a href="https://thecost.vercel.app/" target="blank"><img src="/thecost.png" alt="" /></a>
                 </div>
                 <div>
                     <p>Work Collection</p>
-                    <img src="/workcollection.png" alt="" />
+                    <a href="https://github.com/evertondsvieira/WorkCollection" target="blank"><img src="/workcollection.png" alt="" /></a>
                 </div>
             </div>
         </div>
