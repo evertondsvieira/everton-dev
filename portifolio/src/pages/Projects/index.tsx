@@ -6,27 +6,27 @@ const Projects = () => {
             <div className="flex items-center justify-center flex-row flex-wrap gap-3 max-w-[1200px] mb-8">
                 <div>
                     <p>Comix Shop</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/comixshop.png" alt="" />
                 </div>
                 <div>
                     <p>Nu Kenzie</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/nukenzie.png" alt="" />
                 </div>
                 <div>
                     <p>Kenzie Burger</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/kenzieburger.png" alt="" />
                 </div>
                 <div>
                     <p>Kenzie Hub</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/kenziehub.png" alt="" />
                 </div>
                 <div>
                     <p>The Cost</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/thecost.png" alt="" />
                 </div>
                 <div>
                     <p>Work Collection</p>
-                    <img src="/blank.png" alt="" />
+                    <img src="/workcollection.png" alt="" />
                 </div>
             </div>
         </div>

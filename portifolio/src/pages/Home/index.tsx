@@ -3,7 +3,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <div id="/" className="text-center pt-16 text-slate-100 max-w-[1200px] min-w-[290px]">
+    <div id="/" className="text-center mt-16 text-slate-100 max-w-[1200px] min-w-[290px]">
       <div className="flex items-center justify-center gap-1">
         <p>Hi</p>
         <AiOutlineHeart />
