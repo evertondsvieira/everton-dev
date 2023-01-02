@@ -21,15 +21,15 @@ const NavBar = ({setIsOpen}:IOpenMenu) => {
                     </div>
                     <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <BsPersonFill />
-                        <li><Link to="about" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>About</Link></li>
+                        <li><Link to="about" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setIsOpen(false)}>About</Link></li>
                     </div>
                     <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <FaGraduationCap />
-                        <li><Link to="education" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Education</Link></li>
+                        <li><Link to="education" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setIsOpen(false)}>Education</Link></li>
                     </div>
                     <div className="flex items-center gap-2 hover:text-blue-600 cursor-pointer">
                         <MdWork />
-                        <li><Link to="projects" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
+                        <li><Link to="projects" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
                     </div>
                     <li className="flex justify-center space-x-12 cursor-pointer">
                         <a href="https://github.com/evertondsvieira" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineGithub size={25}/></a>
