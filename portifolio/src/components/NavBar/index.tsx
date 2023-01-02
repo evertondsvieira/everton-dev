@@ -11,7 +11,7 @@ import { IOpenMenu } from "../Header";
 
 const NavBar = ({setIsOpen}:IOpenMenu) => {
     return(
-        <div className="w-[390px] h-screen flex items-center justify-center text-xl relative">
+        <div className="w-[320px] m-movel:min-w-[425px] h-screen flex items-center justify-center text-xl relative">
             <div className="flex-col space-y-6">
                 <div className="w-70 h-full text-slate-100 absolute cursor-pointer top-2.5 right-1.5 laptop:right-20" onClick={() => setIsOpen(false)}><AiOutlineClose size={25}/></div>
                 <ul className="w-54 flex gap-12 flex-col text-slate-100 ">
