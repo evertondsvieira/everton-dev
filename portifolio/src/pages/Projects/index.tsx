@@ -1,4 +1,4 @@
-import { SiExpress, SiCss3, SiJavascript, SiHtml5, SiNodedotjs, SiReact, SiStyledcomponents, SiTypescript } from "react-icons/si";
+import { SiExpress, SiCss3, SiJavascript, SiHtml5, SiNodedotjs, SiReact, SiStyledcomponents, SiTypescript, SiPostgresql, SiDocker } from "react-icons/si";
 
 const Projects = () => {
     return(
@@ -57,6 +57,8 @@ const Projects = () => {
                     <div className="flex items-center justify-center m-2 gap-2">
                         <SiNodedotjs />
                         <SiExpress />
+                        <SiPostgresql />
+                        <SiDocker />
                     </div>
                 </div>
             </div>
