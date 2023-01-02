@@ -59,6 +59,7 @@ const Projects = () => {
                         <SiExpress />
                         <SiPostgresql />
                         <SiDocker />
+                        <SiTypescript />
                     </div>
                 </div>
             </div>
