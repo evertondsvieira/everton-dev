@@ -11,7 +11,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
-
+import Contact from "./pages/Contact";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +25,7 @@ function App() {
       alingItems: "center",
       justifyContent: "end",
       background: "#18181B",
+      overflow: "hidden"
     },
   };
 
