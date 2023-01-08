@@ -19,7 +19,7 @@ const Education = () => {
     return(
         <div id="education">
             <h1 className="text-left text-2xl mx-4 my-4 underline text-slate-100">Education</h1>
-            <div className="flex items-center justify-center gap-4 flex-col text-slate-100 max-w-[1200px]">
+            <div className="flex items-center justify-center gap-4 flex-col text-slate-100 max-w-[1440px]">
                 <div className="flex items-center justify-center gap-5 mx-4 flex-col tablet:flex-row">
                     <img className="w-[300px]" src="logo-ufpr.png" alt="Logo UFPR" />
                     <div className="text-justify">

@@ -2,7 +2,7 @@ const About = () => {
     return(
         <div id="about">
             <h1 className="text-left text-2xl mx-4 my-4 underline text-slate-100">About me</h1>
-            <div className="flex items-center justify-center flex-col text-slate-100 max-w-[1200px] tablet:flex-row">
+            <div className="flex items-center justify-center flex-col text-slate-100 max-w-[1440px] tablet:flex-row">
                 <div>
                     <img className="max-w-[288px] mx-4 border-separate rounded-full" src="perfil.jpg" alt="Foto de perfil"/>
                 </div>
