@@ -1,19 +1,4 @@
-import { SiHtml5 } from "react-icons/si";
-import { SiCss3 } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiSass } from "react-icons/si";
-import { SiStyledcomponents } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiGit } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
-import { SiNodedotjs } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { SiDocker } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { SiDjango } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiSass, SiStyledcomponents, SiTailwindcss, SiGit, SiGithub, SiNodedotjs, SiExpress, SiPostgresql, SiDocker, SiPython, SiDjango } from "react-icons/si";
 
 const Education = () => {
     return(
