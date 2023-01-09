@@ -68,7 +68,7 @@ const Education = () => {
                         </div>
                         <div className="flex items-center gap-1">
                             <SiStyledcomponents />
-                            <li>Components</li>
+                            <li>Styled-Components</li>
                         </div>
                         <div className="flex items-center gap-1">
                             <SiTailwindcss />
