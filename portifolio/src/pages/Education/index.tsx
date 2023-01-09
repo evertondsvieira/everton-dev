@@ -98,7 +98,7 @@ const Education = () => {
                 <div className="flex items-center justify-between mx-4 max-w-[1152px]">
                     <h1 className="text-left text-2xl my-4 underline text-slate-100">Resume</h1>
                     <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                        <a href='/resume.pdf' download>Download</a>
+                        <a href='/Resume.pdf' download>Download</a>
                     </button>
                 </div>
             </div>
