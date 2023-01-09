@@ -5,7 +5,7 @@ const Projects = () => {
         <div id="projects" className="text-slate-100">
             <h1 className="text-left text-2xl mx-4 my-4 underline">Portfolio</h1>
             <h2 className="text-left text-lg mx-4 my-4">My last projects:</h2>
-            <div className="w-screen h-auto flex flex-row overflow-x-scroll items-center px-4 pb-4 gap-3 laptop:overflow-x-hidden laptop:flex-wrap laptop:justify-center laptop:max-w-[1440px]">
+            <div className="w-screen h-auto flex flex-row overflow-x-scroll items-center px-4 pb-4 gap-3 laptop:overflow-x-hidden laptop:flex-wrap laptop:justify-center max-w-[1440px]">
                 <div>
                     <a href="https://evertondsvieira.github.io/Comix-Shop/" target="blank"><img className="max-w-[300px]" src="/comixshop.png" alt=""/></a>
                     <div className="flex items-center justify-center m-2 gap-2">
