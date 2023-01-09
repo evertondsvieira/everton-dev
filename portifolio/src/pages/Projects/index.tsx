@@ -57,7 +57,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div>
-                    <a href="" target="blank"><img className="max-w-[300px]" src="/blank.png" alt="" /></a>
+                    <a href="" target="blank"><img className="max-w-[300px]" src="/utopicbank.png" alt="" /></a>
                     <div className="flex items-center justify-center m-2 gap-2">
                     <SiPostgresql />
                     <SiDocker />
