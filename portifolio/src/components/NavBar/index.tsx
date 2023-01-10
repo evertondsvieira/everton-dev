@@ -1,9 +1,8 @@
 import { AiOutlineClose, AiOutlineGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome, AiOutlineMail, AiFillLinkedin} from "react-icons/ai";
 import { BsPersonFill } from "react-icons/bs";
 import { MdWork } from "react-icons/md";
+import { SiWhatsapp } from "react-icons/si"
 import { FaGraduationCap } from "react-icons/fa";
 import { Link } from "react-scroll"
 import { IOpenMenu } from "../Header";
@@ -31,10 +30,10 @@ const NavBar = ({setIsOpen}:IOpenMenu) => {
                         <MdWork />
                         <li><Link to="projects" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
                     </div>
-                    <li className="flex justify-center space-x-12 cursor-pointer">
+                    <li className="flex justify-center space-x-8 cursor-pointer">
+                        <a href="mailto:vieiraeverton33@hotmail.com" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineMail size={25}/></a>
+                        <a href="https://wa.me/5566984141471" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><SiWhatsapp size={25}/></a>
                         <a href="https://github.com/evertondsvieira" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineGithub size={25}/></a>
-                        <a href="https://www.linkedin.com/in/everton-da-silva-vieira/" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiFillLinkedin size={25}/></a>
-                        <a href="http://instagram.com/evertuuuv" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineInstagram size={25}/></a>
                     </li>
                 </ul>
             </div>
