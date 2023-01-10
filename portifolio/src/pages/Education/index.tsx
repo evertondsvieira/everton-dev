@@ -10,7 +10,7 @@ const Education = () => {
                     <div className="text-justify">
                         <h2>Institution: Federal University of Paraná</h2>
                         <p>Duration: 2022 - 2025</p>
-                        <p>The Federal University of Paraná is a public university headquartered in Curitiba, Paraná, Brazil. UFPR is considered to be one of the oldest universities in Brazil. I am currently studying the Systems Analysis and Development course and will probably graduate in 2025.</p>
+                        <p>The Federal University of Paraná is a public university headquartered in Curitiba, Paraná, Brazil. UFPR is considered to be one of the oldest universities in Brazil. I am currently studying the Systems Analysis and Development and will probably graduate in 2025.</p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center gap-5 mx-4 flex-col tablet:flex-row">
