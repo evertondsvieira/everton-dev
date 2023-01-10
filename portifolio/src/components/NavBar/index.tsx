@@ -30,7 +30,7 @@ const NavBar = ({setIsOpen}:IOpenMenu) => {
                         <MdWork />
                         <li><Link to="projects" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={() => setIsOpen(false)}>Portfolio</Link></li>
                     </div>
-                    <li className="flex justify-center space-x-8 cursor-pointer">
+                    <li className="flex justify-center space-x-12 cursor-pointer">
                         <a href="mailto:vieiraeverton33@hotmail.com" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineMail size={25}/></a>
                         <a href="https://wa.me/5566984141471" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><SiWhatsapp size={25}/></a>
                         <a href="https://github.com/evertondsvieira" target="blank" className="hover:text-blue-600 hover:scale-110 hover:delay-150"><AiOutlineGithub size={25}/></a>
