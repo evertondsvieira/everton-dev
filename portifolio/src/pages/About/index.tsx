@@ -7,7 +7,7 @@ const About = () => {
                     <img className="max-w-[288px] mx-4 mb-2 border-separate rounded-full" src="perfil.jpg" alt="Foto de perfil"/>
                 </div>
                 <div className="flex items-center justify-center laptop:mx-4">
-                    <p className="text-justify mx-4 laptop:mx-0">Hello. My name is Everton, I am a twenty three year old Full Stack Developer graduate from the Kenzie Academy of Brasil Web Development. With experience in both Front End and Back End development, agile methodologies (SCRUM), as well as several group and individual project completions. Currently I am studying System Analysis at the Federal University of Paraná and looking for my first professional opportunity as a web developer.</p>
+                    <p className="text-justify mx-4 laptop:mx-0">Hello. My name is Everton, I am a twenty three year old Full Stack Developer graduate from the Kenzie Academy Brasil. With experience in both Front End and Back End development, agile methodologies (SCRUM), as well as several group and individual project completions. Currently I am studying System Analysis at the Federal University of Paraná and looking for my first professional opportunity as a web developer.</p>
                 </div>
             </div>
         </div>
