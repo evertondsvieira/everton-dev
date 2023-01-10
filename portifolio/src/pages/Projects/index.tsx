@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div>
-                    <a href="https://react-entrega-s1-hamburgueria-da-kenzie-evertondsvieira.vercel.app/" target="blank"><img className="max-w-[300px]" src="/kenzieburger.png" alt="" /></a>
+                    <a href="https://kenzieburger-phi.vercel.app/" target="blank"><img className="max-w-[300px]" src="/kenzieburger.png" alt="" /></a>
                     <div className="flex items-center justify-center m-2 gap-2">
                         <SiReact />
                         <SiCss3 />
