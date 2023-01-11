@@ -25,7 +25,7 @@ const Education = () => {
             <div className="text-slate-100">
                 <h1 className="text-left text-2xl mx-4 my-4 underline">Skills</h1>
                 <p className="text-justify mx-4">These are my main skills and at the moment I'm studying the Vue.js framework. I also have experience with Visual Studio Code, Discord, Slack, Figma, Trello and Jira.</p>
-                <div className="max-w-[1152px] flex items-center justify-between mx-4 my-4 ">
+                <div className="max-w-[1440px] flex items-center justify-between mx-4 my-4 ">
                     <ul>
                         <div className="flex items-center gap-1">
                             <SiHtml5 />
@@ -95,7 +95,7 @@ const Education = () => {
                         </div>
                     </ul>
                 </div>
-                <div className="flex items-center justify-between mx-4 max-w-[1152px]">
+                <div className="flex items-center justify-between mx-4 max-w-[1440px]">
                     <h1 className="text-left text-2xl my-4 underline text-slate-100">Resume</h1>
                     <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                         <a href='/Resume.pdf' download>Download</a>
