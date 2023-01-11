@@ -24,7 +24,7 @@ const Education = () => {
             </div>
             <div className="text-slate-100">
                 <h1 className="text-left text-2xl mx-4 my-4 underline">Skills</h1>
-                <p className="text-justify mx-4">These are my main skills and at the moment I'm studying the Vue.js framework. I also have experience with Visual Studio Code, Discord, Slack, Figma, Trello and Jira.</p>
+                <p className="text-justify mx-4">These are my main skills and at the moment I am studying the Vue.js framework. I also have experience with Visual Studio Code, Vercel, Discord, Slack, Figma, Trello and Jira.</p>
                 <div className="max-w-[1440px] flex items-center justify-between mx-4 my-4 ">
                     <ul>
                         <div className="flex items-center gap-1">
